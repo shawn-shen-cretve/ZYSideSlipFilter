@@ -17,8 +17,8 @@
 #define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
 
-#define SLIP_ORIGIN_FRAME CGRectMake(SCREEN_WIDTH, 0, SCREEN_WIDTH - _sideSlipLeading, SCREEN_HEIGHT)
-#define SLIP_DISTINATION_FRAME CGRectMake(_sideSlipLeading, 0, SCREEN_WIDTH - _sideSlipLeading, SCREEN_HEIGHT)
+#define SLIP_ORIGIN_FRAME CGRectMake(SCREEN_WIDTH, 88, SCREEN_WIDTH - _sideSlipLeading, SCREEN_HEIGHT - 200)
+#define SLIP_DISTINATION_FRAME CGRectMake(_sideSlipLeading, 88, SCREEN_WIDTH - _sideSlipLeading, SCREEN_HEIGHT - 200)
 
 const CGFloat ANIMATION_DURATION_DEFAULT = 0.3f;
 const CGFloat SIDE_SLIP_LEADING_DEFAULT = 60;
